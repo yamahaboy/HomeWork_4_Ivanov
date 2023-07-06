@@ -1,8 +1,8 @@
 const isPalindrome = (word) => {
-  word = word.toLowerCase();
-  const reversedWord = word.split("").reverse().join("");
-  let booleanCheck = word === reversedWord;
-  console.log(`Word is Palindrome or not: ${word} => ${booleanCheck}`);
+  const line = word.toLowerCase();
+  const reversedWord = line.split("").reverse().join("");
+  let booleanCheck = line === reversedWord;
+  console.log(`Word is Palindrome or not: ${line} => ${booleanCheck}`);
   return booleanCheck;
 };
 
